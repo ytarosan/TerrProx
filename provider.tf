@@ -15,7 +15,7 @@ provider "proxmox" {
 resource "proxmox_lxc" "test_container" {
   vmid        = 201
   hostname    = "test-lxc"
-  target_node = "thor"  # Укажите ваш узел Proxmox
+  target_node = "____"  # Укажите ваш узел Proxmox
   
   # Используйте существующий шаблон
   ostemplate = "local:vztmpl/ubuntu-22.04-standard_22.04-1_amd64.tar.zst"
