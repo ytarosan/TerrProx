@@ -1,0 +1,7 @@
+#!/bin/bash
+mkdir -p ~/.terraform.d/plugins/registry.terraform.io/telmate/proxmox/3.0.2-rc03/linux_amd64/
+cd ./provider/
+cp terraform-provider-proxmox_v3.0.2-rc03 ~/.terraform.d/plugins/registry.terraform.io/telmate/proxmox/3.0.2-rc03/linux_amd64/
+cd ..
+
+echo "Provider install"
